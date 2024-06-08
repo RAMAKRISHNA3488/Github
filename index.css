@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    min-height: 100vh;
+   
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #918b8b;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    position: relative;
+    width: 100%;
+    max-width: 768px;
+    background: #858080;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1);
+}
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container header{
+    position: relative;
+    font-size: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+
+.container form{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+
+.container form input,
+.container form textarea{
+    position: relative;
+    background: #303030;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin: 8px 0;
+    color: #fff;
+}
+
+.container form textarea{
+    height: 100px;
+    resize: none;
+    overflow-y: auto;
+}
+
+.container form button{
+    position: relative;
+    background: #fff;
+    padding: 10px 15px;
+    margin: 8px 0;
+    color: #303030;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.container form button:hover{
+    background: #303030;
+    color: #fff;
+}
+
+.container footer{
+    position: relative;
+    margin-top: 20px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.container footer a{
+    color: #00f;
+    text-decoration: none;
+}
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4CAF50;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container form input,
+    .container form textarea{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container form input,
+    .container form textarea{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .container{
+        padding: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container form input,
+    .container form textarea{
+        padding: 10px;
+    }
+}
+
+@media (max-width: 380px) {
+    .container form input,
+    .container form textarea{
+        padding: 5px;
+    }
+}
+
+@media (max-width: 320px) {
+    .container form input,
+    .container form textarea{
+        padding: 2px;
+    }
+}
+
+@media (max-width: 280px) {
+    .container form input,
+    .container form textarea{
+        padding: 1px;
+    }
+}
+
+@media (max-width: 240px) {
+    .container form input,
+    .container form textarea{
+        padding: 0.5px;
+    }
+}
+
+@media (max-width: 200px) {
+    .container form input,
+    .container form textarea{
+        padding: 0.2px;
+    }
+}
